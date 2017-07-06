@@ -1,0 +1,34 @@
+1497281380848	Rename compilation unit 'userRegistration.java'
+1497284741183	Rename type 'UserRegistration'
+1497284790764	Rename type 'UserRegistrationImpl'
+1497286103926	Rename resource 'application-config.xml'
+1497286347391	Delete element
+1497286427153	Rename resource 'NewFile.xml'
+1497287210201	Rename resource 'applicationContext-config.xml'
+1497287221326	Rename resource 'applicationContext-bean.xml'
+1497287621453	Rename type 'UserRegistrationService'
+1497287659251	Rename type 'UserRegistrationServiceImpl'
+1497287678152	Rename type 'UserRegistrationDAO'
+1497287694210	Rename type 'UserRegistrationDAOImpls'
+1497294764040	Rename type 'User'
+1497444047231	Rename type 'UserRegistration'
+1497458218482	Delete element
+1497458234145	Delete element
+1497458245229	Delete element
+1497458256879	Delete element
+1497458284726	Delete element
+1497458307107	Delete element
+1497458319313	Delete element
+1497458329963	Delete element
+1497458342661	Delete element
+1497458359357	Delete element
+1497458366764	Delete element
+1497458377483	Delete element
+1497458388116	Delete element
+1497458398292	Delete element
+1497458407639	Delete element
+1497458441050	Delete element
+1497458466196	Delete element
+1497459650415	Delete element
+1497463646560	Delete element
+1497465003869	Infer generic type arguments

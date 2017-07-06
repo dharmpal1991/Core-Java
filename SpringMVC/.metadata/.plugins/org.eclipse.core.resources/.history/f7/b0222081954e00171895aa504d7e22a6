@@ -1,0 +1,38 @@
+package com.spring.controller;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.spring.beans.StudentRegistration;
+
+import flexjson.JSONSerializer;
+
+@Controller
+public class UserRegistration {
+		
+	@RequestMapping(value = "/userRegistration",method = RequestMethod.POST)
+	@ResponseBody
+	public String createUser(@RequestParam(value="userRegistration")String userRegistration,HttpServletRequest request, HttpServletResponse response){
+		System.out.println(userRegistration);
+		
+		UserRegistration registration = new GsonBuilder().create().fromJson(userRegistration, UserRegistration.class);
+		System.out.println("JAIDEV : "+registration);
+		 // OR 
+		UserRegistration registration2 = new Gson().fromJson(userRegistration, UserRegistration.class);
+		System.out.println("2GSON : "+registration2);
+		
+		JSONSerializer jsonSerializer = new JSONSerializer();
+		String json = jsonSerializer.serialize(userRegistration);
+		System.out.println(json);
+		
+		return json;
+	}
+}

@@ -1,0 +1,14 @@
+package com.student.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.student.service.StudentService;
+
+@Controller
+public class StudentHomeController {
+	
+	@Autowired
+	StudentService userService;
+
+}

@@ -1,0 +1,29 @@
+var STUDENT = {
+		
+	submitFunction : function(){
+		var studentRegistration = {};
+		studentRegistration.emailAddress = $("#EmailAddress").val();
+		studentRegistration.password = $("#password").val();
+		
+		console.log(JSON.stringify(studentRegistration));
+		
+		$.ajax({
+			url :"/StudentRegistration/studentRegistration",
+			type :"POST",
+			data :{"studentRegistration":JSON.stringify(studentRegistration)},
+			dataType :'json',
+			success :function(response){
+				alert(response);
+				var str = JSON.stringify(response);
+				alert(str);
+				console.log(str);
+			},
+			error :function(e){
+				console.log(e);
+				alert(e);
+	       }
+		});
+		
+ 	},	
+ 	
+};

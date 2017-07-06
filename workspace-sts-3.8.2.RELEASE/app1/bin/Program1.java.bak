@@ -1,0 +1,10 @@
+class Program1{
+	static String StringValue(String str){
+		return str;
+	}
+	public static void main(String[] args){
+		String s1 = "Dharmpal Kansujia";
+		StringValue(s1);
+		System.out.println(str);
+	}
+}

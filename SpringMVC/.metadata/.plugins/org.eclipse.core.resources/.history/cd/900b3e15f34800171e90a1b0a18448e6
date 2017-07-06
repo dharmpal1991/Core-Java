@@ -1,0 +1,29 @@
+package com.spring.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.spring.beans.Employee;
+import com.sun.org.glassfish.gmbal.ManagedObject;
+import com.sun.tracing.dtrace.ModuleAttributes;
+
+
+@Controller
+public class EmployeeController {
+	
+	@RequestMapping(value="/employee",method=RequestMethod.GET)
+	public String employee(Model model){
+		model.addAttribute("Employeee",new Employee());
+		return "employeeForm";
+	}
+	
+	@RequestMapping(value="/employeeForm",method=RequestMethod.POST)
+	public  String addEmployee(@ModuleAttribute("Employeee") Employee employee,ModelMap model){
+		model.addAttribute("DATA",employee);
+		return "employeeDetail";
+	}
+
+}

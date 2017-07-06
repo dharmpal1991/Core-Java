@@ -1,0 +1,9 @@
+package com.student.service;
+
+public class StudentServiceImpl implements StudentService{
+
+	public Integer createStudentId() {
+		return null;
+	}
+
+}

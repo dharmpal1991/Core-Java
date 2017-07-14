@@ -38,7 +38,7 @@ public class StudentHomeController {
 		
 		List <StudentRegister> list   = stuService.listOfStudent();
 		model.addAttribute("studentRegistration",list);
-		return "studentReturnData";
+		return "studentGetData";
 	}
 	@RequestMapping(value="/studentDelete/{id}")
 	public String studentDeleteRecord(@PathVariable Integer id){

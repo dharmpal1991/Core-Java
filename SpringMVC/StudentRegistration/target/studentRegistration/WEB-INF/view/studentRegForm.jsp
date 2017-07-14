@@ -6,10 +6,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel ="stylesheet" href="/WEB/resources/bootstrap/css/bootstrap.min.css" ></link>
-<link rel ="stylesheet" href="/WEB/resources/bootstrap/css/bootstrap-theme.min.css" ></link>
-<script type="text/javascript" src="/WEB/resources/js/jquery-1.12.1.min.js"></script>
-<script src="/WEB/resources/bootstrap/js/bootstrap.min.js"></script>
+<link rel ="stylesheet" href="/StudentRegistration/resources/bootstrap/css/bootstrap.min.css" ></link>
+<link rel ="stylesheet" href="/StudentRegistration/resources/bootstrap/css/bootstrap-theme.min.css" ></link>
+<script type="text/javascript" src="/StudentRegistration/resources/js/jquery-1.12.1.min.js"></script>
+<script src="/StudentRegistration/resources/bootstrap/js/bootstrap.min.js"></script>
 <script src = "/StudentRegistration/resources/js/customjs/studentReg.js"></script>
 <script type="text/javascript" src ="/StudentRegistration/resources/js/customjs/studentValidation.js" ></script>
 <title>Registration</title>
@@ -112,7 +112,8 @@
 					<div class="col-md-4 inputGroupContainer">
 						<div class="input-group">
 							<span class="input-group-addon"><i
-								class="glyphicon glyphicon-user"></i></span> </span> <select name="department" id="gender"
+								class="glyphicon glyphicon-user"></i></span> </span> 
+								<select name="department" id="gender"
 								class="form-control selectpicker">
 								<option value="">--Select--</option>
 								<option>Male</option>

@@ -6,13 +6,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-<link rel ="stylesheet" href="/WEB/resources/bootstrap/css/bootstrap.min.css" ></link>
-
-<link rel ="stylesheet" href="/WEB/resources/bootstrap/css/bootstrap-theme.min.css" ></link>
-
-<script type="text/javascript" src="/WEB/resources/js/jquery-1.12.1.min.js"></script>
-<script src="/WEB/resources/bootstrap/js/bootstrap.min.js"></script>
+<link rel ="stylesheet" href="/StudentRegistration/resources/bootstrap/css/bootstrap.min.css" ></link>
+<link rel ="stylesheet" href="/StudentRegistration/resources/bootstrap/css/bootstrap-theme.min.css" ></link>
+<script type="text/javascript" src="/StudentRegistration/resources/js/jquery-1.12.1.min.js"></script>
+<script src="/StudentRegistration/resources/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <style>
 body{
@@ -46,6 +43,7 @@ body{
 
       <button class="btn btn-lg btn-primary btn-block"  style="width:400px" id="submit_id">Sign in</button>
       <a href="/StudentRegistration/studentReg"> Create New Account</a>
+      <a href="/StudentRegistration/studentgetdata"> Get Student Data</a>
     </form>
   </div> <!-- /container -->
 </div>

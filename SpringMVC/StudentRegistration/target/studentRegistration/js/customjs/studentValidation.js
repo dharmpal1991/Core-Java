@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-   $("#contact_form").submit(function(e){
+   $("#stu_submit").submit(function(e){
 		var firstName = $("#first_name").val();
 		var lastName = $("#last_name").val();
 		var fullName = $("#full_name").val();

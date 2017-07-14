@@ -112,7 +112,8 @@
 					<div class="col-md-4 inputGroupContainer">
 						<div class="input-group">
 							<span class="input-group-addon"><i
-								class="glyphicon glyphicon-user"></i></span> </span> <select name="department" id="gender"
+								class="glyphicon glyphicon-user"></i></span> </span> 
+								<select name="department" id="gender"
 								class="form-control selectpicker">
 								<option value="">--Select--</option>
 								<option>Male</option>

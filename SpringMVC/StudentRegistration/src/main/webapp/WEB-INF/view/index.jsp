@@ -43,6 +43,7 @@ body{
 
       <button class="btn btn-lg btn-primary btn-block"  style="width:400px" id="submit_id">Sign in</button>
       <a href="/StudentRegistration/studentReg"> Create New Account</a>
+      <a href="/StudentRegistration/studentgetdata"> Get Student Data</a>
     </form>
   </div> <!-- /container -->
 </div>

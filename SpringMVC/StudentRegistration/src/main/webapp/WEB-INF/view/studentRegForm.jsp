@@ -8,13 +8,20 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel ="stylesheet" href="/StudentRegistration/resources/bootstrap/css/bootstrap.min.css" ></link>
 <link rel ="stylesheet" href="/StudentRegistration/resources/bootstrap/css/bootstrap-theme.min.css" ></link>
-<script type="text/javascript" src="/StudentRegistration/resources/js/jquery-1.12.1.min.js"></script>
+<script type="text/javascript" src="/StudentRegistration/resources/js/jquery-1.12.min.js"></script>
 <script src="/StudentRegistration/resources/bootstrap/js/bootstrap.min.js"></script>
 <script src = "/StudentRegistration/resources/js/customjs/studentReg.js"></script>
 <script type="text/javascript" src ="/StudentRegistration/resources/js/customjs/studentValidation.js" ></script>
 <title>Registration</title>
 </head>
 <body>
+<div class="panel panel-success">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                <div align="left"><b><h4>Student Registration Form<h4></b> </div>
+                <div align="right"><a href="/StudentRegistration/studentgetdata">Show Student Data</a></div>
+            </h3>
+        </div>
 	<div class="container">
 
 		<form class="well form-horizontal"
@@ -22,7 +29,7 @@
 			<fieldset>
 
 				<!-- Form Name -->
-				<legend>
+				<!-- <legend>
 					<center>
 						<h2>
 							<b>Student Registration Form</b>
@@ -30,7 +37,7 @@
 					</center>
 				</legend>
 				<br>
-
+ -->
 				<!-- Enter First Name start-->
 
 				<div class="form-group">

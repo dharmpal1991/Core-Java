@@ -17,6 +17,7 @@
 	  <property name="hibernate.connection.autocommit">true</property>
 	  <property name="hibernate.transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>
       <mapping class="com.student.entities.StudentRegister"/>
+      <mapping class="com.student.entities.StudentAddress"/>
       
     </session-factory>
 </hibernate-configuration>

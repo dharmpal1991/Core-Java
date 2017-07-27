@@ -57,8 +57,7 @@ public class StudentRegister implements Serializable{
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
-		this.fullName = fullName;
-	
+		this.fullName = fullName;	
 	}
 	
 	public StudentAddress getStudentAddress() {

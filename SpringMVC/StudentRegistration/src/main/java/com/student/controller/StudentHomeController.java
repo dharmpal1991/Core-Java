@@ -22,8 +22,7 @@ public class StudentHomeController {
 	
 	@RequestMapping(value ="/studentReg",method = RequestMethod.GET)
 	public String logInStudent(){
-		return "studentRegForm";
-		
+		return "studentRegForm";	
 	}
 	
 	@RequestMapping(value ="/studentSubmittionForm",method = RequestMethod.POST)
@@ -48,10 +47,9 @@ public class StudentHomeController {
 	
 	@RequestMapping(value = "/studentUpdation",method = RequestMethod.POST)
 	@ResponseBody
-	public String studentUpdation(@RequestParam(value = "studentUpdation")String studentUpdation){
+	public String studentUpdateRecord(@RequestParam(value = "studentUpdation")String studentUpdation){
 		System.out.println(studentUpdation);
 		stuService.studentUpdateRecord(studentUpdation);
-		return "studentgetdata";
-	}
-	
+		return "studentGetdata";
+	}	
 }

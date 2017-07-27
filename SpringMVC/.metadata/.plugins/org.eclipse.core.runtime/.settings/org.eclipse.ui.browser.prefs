@@ -1,4 +1,4 @@
 browser-choice=1
-browsers=<?xml version\="1.0" encoding\="UTF-8"?>\n<web-browsers current\="1">\n<system/>\n<external location\="/usr/bin/firefox" name\="Firefox"/>\n</web-browsers>
+browsers=<?xml version\="1.0" encoding\="UTF-8"?>\n<web-browsers current\="0">\n<system/>\n<external location\="/usr/bin/firefox" name\="Firefox"/>\n</web-browsers>
 eclipse.preferences.version=1
 internalWebBrowserHistory=file\:///home/namostute/Documents/SpringMVC/WEB/src/main/webapp/resources/images/student1.jpg|*|file\:/home/namostute/Documents/SpringMVC/WEB/src/main/webapp/resources/images/student1.jpg|*|http\://localhost\:8888/WEB/|*|http\://localhost\:8888/register|*|http\://localhost\:8888/WEB/check|*|http\://localhost\:8888/WEB/index.jsp|*|http\://localhost\:8888/demo/|*|http\://localhost\:8888/SpringMVC/|*|

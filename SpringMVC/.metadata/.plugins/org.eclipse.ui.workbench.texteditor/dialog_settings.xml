@@ -6,20 +6,20 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="submitFunction" key="selection"/>
+		<item value="checkall" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="checkall"/>
+			<item value="mytable"/>
+			<item value="my"/>
+			<item value="register"/>
+			<item value="Register"/>
+			<item value="ci_ty"/>
 			<item value="submitFunction"/>
 			<item value="Function"/>
-			<item value="function"/>
-			<item value="8080"/>
-			<item value="context"/>
-			<item value="&lt;context&gt;"/>
-			<item value="&lt;context"/>
-			<item value=".form-control"/>
 		</list>
 		<list key="replacehistory">
 		</list>
@@ -28,7 +28,7 @@
 		<item value="314" key="DIALOG_WIDTH"/>
 		<item value="1|Cantarell|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 		<item value="529" key="DIALOG_HEIGHT"/>
-		<item value="496" key="DIALOG_X_ORIGIN"/>
-		<item value="187" key="DIALOG_Y_ORIGIN"/>
+		<item value="781" key="DIALOG_X_ORIGIN"/>
+		<item value="162" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

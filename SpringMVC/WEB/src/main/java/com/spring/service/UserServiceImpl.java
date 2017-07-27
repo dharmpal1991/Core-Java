@@ -13,9 +13,6 @@ import com.google.gson.GsonBuilder;
 import com.spring.dao.UserDAO;
 import com.spring.entities.UserRegister;
 
-import flexjson.JSONDeserializer;
-import flexjson.JSONSerializer;
-
 @Service
 public class UserServiceImpl  implements UserService{
 	

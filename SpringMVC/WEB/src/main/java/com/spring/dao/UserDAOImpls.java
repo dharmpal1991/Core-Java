@@ -13,7 +13,6 @@ import org.springframework.transaction.annotation.Transactional;
 import com.spring.entities.UserRegister;
 
 @Repository
-//@Transactional
 public class UserDAOImpls implements UserDAO {
 	
 	@Autowired

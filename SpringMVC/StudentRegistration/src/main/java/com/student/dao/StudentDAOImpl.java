@@ -54,11 +54,11 @@ public class StudentDAOImpl implements StudentDAO{
 		
 	}
 
-	public void studentUpdateRecord(StudentRegister register) {
+	public void studentUpdateRecord(StudentRegister studentregister) {
 		Session session = getSession();
 		Transaction tx = session.getTransaction();
 		tx.begin();
-		session.update(register);
+		session.update(studentregister);
 		tx.commit();
 	}
 }

@@ -1,4 +1,4 @@
-/*var STUDENTUPDATION = {
+var STUDENTUPDATION = {
 		
 	updateFunction : function(){
 		var studentUpdation = {};
@@ -30,10 +30,10 @@
 		
  	},	
  	
-};*/
+};
 
 //Browser Support Code
-function ajaxFunction(){
+/*function ajaxFunction(){
    var ajaxRequest;  // The variable that makes Ajax possible!
    try{
    
@@ -56,6 +56,7 @@ function ajaxFunction(){
          }
       }
    }
+
    
    // Create a function that will receive data
    // sent from the server and will update
@@ -70,6 +71,7 @@ function ajaxFunction(){
    
    // Now get the value from user and pass it to
    // server script.
+
     var.id = document.getElementById("id").value;
 	var.firstName = document.getElementById("first_name").value;
 	var.lastName = document.getElementById("last_name").value;
@@ -87,5 +89,7 @@ function ajaxFunction(){
    
    queryString +=  "&wpm=" + wpm + "&sex=" + sex;
    ajaxRequest.open("GET", "ajax-example.php" + queryString, true);
-   ajaxRequest.send(null); 
-}
+   ajaxRequest.send(null);
+   
+
+}*/

@@ -58,9 +58,9 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/namostute/Documents/SpringMVC"/>
 			<item value="/media/namostute/MySpace/STS WorkSpace/studentRegistration/src/main/resources/student/application-config.xml"/>
 			<item value="/media/namostute/MySpace/STS WorkSpace"/>
-			<item value="/home/namostute/Documents/SpringMVC"/>
 			<item value="/home/namostute/Documents/SpringMVC/WEB"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -74,10 +74,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.SpringHibernate"/>
+			<item value="com.springHibernate"/>
 		</list>
 		<list key="groupId">
+			<item value="com"/>
 		</list>
 		<list key="artifactId">
+			<item value="SpringHibernate"/>
+			<item value="springHibernate"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

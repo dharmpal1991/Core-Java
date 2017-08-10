@@ -29,7 +29,5 @@ public class ConvertArrayListToArray {
 			int itr = inter[i];
 			System.out.print(itr+" ");
 		}
-
 	}
-
 }

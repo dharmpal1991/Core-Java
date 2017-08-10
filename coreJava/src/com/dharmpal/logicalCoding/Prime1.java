@@ -12,7 +12,6 @@ public class Prime1 {
 		if (n <= 2) {
 			System.out.println("There are not exit any prime number less than given number " + n);
 		}
-
 		else {
 			System.out.println("Prime numbers less than " + n + " are....");
 

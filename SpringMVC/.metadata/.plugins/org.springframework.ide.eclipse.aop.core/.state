@@ -12,4 +12,5 @@
 <aop-reference advice-type="AROUND" bean="1:BeansModel|2:WEB|3:src/main/resources/spring/application-config.xml|7:beans:8|8:userDAOImpls:8" bean-file="/WEB/src/main/resources/spring/application-config.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/WEB/src/main/resources/spring/application-config.xml" source="=StudentRegistration/\/home\/namostute\/.m2\/repository\/org\/springframework\/spring-tx\/3.2.3.RELEASE\/spring-tx-3.2.3.RELEASE.jar&lt;org.springframework.transaction.interceptor(TransactionInterceptor.class[TransactionInterceptor~invoke~Lorg.aopalliance.intercept.MethodInvocation;" source-start-line="-1" target="=WEB/src\/main\/java&lt;com.spring.dao{UserDAOImpls.java[UserDAOImpls~createUser~QUserRegister;" target-start-line="32"/>
 </aspect-definition>
 </aop-project>
+<aop-project name="mongoDemo"/>
 </aop-reference-model>

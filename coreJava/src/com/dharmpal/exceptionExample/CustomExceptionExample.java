@@ -22,14 +22,14 @@ class TooOldException extends RuntimeException{
 		super(str);
 	}
 }
-
 public class CustomExceptionExample {
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Please Enter Age");
 		int age = sc.nextInt();
 		if(age>60){
-			throw new TooOldException("You are ovre Age");
+			throw new TooOldException("You are over Age");
 		}
 		else if(age<18){
 			throw new TooYoungException("You are under Age");

@@ -9,17 +9,14 @@ public class ArmstrongNumber {
 			count++;
 			temp = temp / 10;
 		}
-
 		temp = n;
 		while (temp > 0) {
 			rem = temp % 10;
 			arm = arm + power(count, rem);
 			temp = temp / 10;
 		}
-
 		return arm;
 	}
-
 	public static int power(int count, int rem) {
 		int arm = 1;
 		for (int i = 0; i < count; i++) {
@@ -27,7 +24,6 @@ public class ArmstrongNumber {
 		}
 		return arm;
 	}
-
 	public static void main(String[] args) {
 		int num = 153;
 		int arm = checkArmstrong(num);
@@ -35,7 +31,5 @@ public class ArmstrongNumber {
 			System.out.println("Given number " + num + " is armstrong number");
 		} else
 			System.out.println("Given number " + num + " is not armstrong number");
-
 	}
-
 }

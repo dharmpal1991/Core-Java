@@ -10,11 +10,9 @@ class Testing implements Test.Yes{
 		System.out.println("I am Implemented");
 	}
 }
-
 public class DriverClass1 {
 	public static void main(String[] args) {
 		Test.Yes obj = new Testing();
 		obj.show();
 	}
-
 }

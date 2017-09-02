@@ -11,7 +11,6 @@ public class DeleteDublicateElementFromArray {
 		Set<Integer> set = new LinkedHashSet(Arrays.asList(str));
 		return set;
 	}
-
 	public static String[] uniqueNumberArray2(String arr) {
 		String[] str = arr.split("\\,");
 		int len = str.length;
@@ -28,11 +27,9 @@ public class DeleteDublicateElementFromArray {
 		}
 		for (int i = 0; i < len; i++) {
 			System.out.print(str[i] + " ");
-
 		}
 		return str;
 	}
-
 	public static void main(String[] args) {
 		String s = "10,1,3,6,6,6,9,7,6,6,5";
 		System.out.println("Without dublicate numbers......using Collection api");
@@ -41,5 +38,4 @@ public class DeleteDublicateElementFromArray {
 		System.out.println("Without dublicate numbers........... using predife api");
 		uniqueNumberArray2(s);
 	}
-
 }

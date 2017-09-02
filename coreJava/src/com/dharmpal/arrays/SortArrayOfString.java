@@ -21,7 +21,6 @@ public class SortArrayOfString {
 		}
 		return str;
 	}
-
 	public static void main(String[] args) {
 		String str = "deepak dyna deepali deepika deksha dileep dee";
 		System.out.println(Arrays.toString(sorting(str)));

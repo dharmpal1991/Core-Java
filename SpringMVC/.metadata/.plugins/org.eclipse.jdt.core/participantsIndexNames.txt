@@ -1,3 +1,0 @@
-INDEX VERSION 1.130
-/home/namostute/Documents/SpringMVC/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2772091837.index
-/WEB/src/test/java
